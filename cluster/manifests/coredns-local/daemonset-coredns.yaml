@@ -92,7 +92,7 @@ spec:
 {{ end }}
 {{ if eq .Cluster.ConfigItems.dns_cache "dnsmasq" }}
       - name: dnsmasq
-        image: container-registry.zalando.net/teapot/k8s-dns-dnsmasq-nanny:1.17.4-master-15
+        image: container-registry.zalando.net/teapot/k8s-dns-dnsmasq-nanny:1.23.1-master-17
         securityContext:
           privileged: true
         livenessProbe:
