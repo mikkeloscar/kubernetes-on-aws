@@ -35,7 +35,7 @@ spec:
           value: "1"
       initContainers:
       - name: generate-config
-        image: container-registry.zalando.net/library/amazonlinux-2023-slim:main-819.1140-20240715
+        image: container-registry.zalando.net/library/amazonlinux-2023-slim:main-821.1142-20240717
         command:
         - /bin/bash
         args:
